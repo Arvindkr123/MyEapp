@@ -7,9 +7,7 @@ import store from "./Store/Store";
 const App = () => {
   return (
     <>
-      <Provider store={store}>
         <RouteConfigPageComponents />
-      </Provider>
     </>
   );
 };
